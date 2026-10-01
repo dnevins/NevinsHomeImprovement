@@ -44,7 +44,7 @@ Until the placeholder is replaced, the pixel does not load at all.
 1. Sign in at https://claude.ai and connect GitHub (**Settings > Connectors > GitHub**), giving it access to this repo. Or use Claude Code on the web at https://claude.ai/code, which can edit the repo and push the change.
 2. Ask in plain English, for example:
    - "In my website repo, change the hours to Monday to Saturday, 8 to 5."
-   - "Add these three photos to the project gallery in place of the placeholder tiles." (attach the photos)
+   - "Add these three photos to the project gallery in place of the sample stock photos." (attach the photos)
    - "Add a review from Mike T. that says ..."
 3. Claude makes the change and commits it to GitHub. Cloudflare publishes it automatically.
 
@@ -52,8 +52,8 @@ Rules worth keeping when editing: never add a review someone did not actually wr
 
 ## TODO list for Chris
 
-- [ ] **Photos.** Send real project photos (bathrooms first, then kitchens, tile, floors, decks) and one photo of you on a job. They replace the labeled placeholder tiles. Look for `PHOTOS GO HERE` and `PHOTO OF CHRIS` comments in `index.html`.
-- [ ] **Service area.** Which towns do you serve? The list currently says Tecumseh, Lenawee County, Southeast Michigan.
+- [ ] **Photos.** Send real project photos (bathrooms first, then kitchens, tile, floors, decks) and one photo of you on a job. They replace the stock photos now on the page, each tagged "Sample photo" (sources in `photos/CREDITS.md`); none of those are your work, so they must all be gone before launch. Look for `PHOTOS GO HERE` and `SAMPLE STOCK PHOTO` comments in `index.html`.
+- [ ] **Service area.** The page now says Lenawee, Washtenaw and Monroe Counties, with Tecumseh, Adrian, Clinton, Onsted, Blissfield, Saline, Ann Arbor, Manchester, Chelsea, Dexter, Ypsilanti, Milan, Dundee and Monroe. Add or drop any towns.
 - [ ] **Hours.** Listings disagree (Mon to Fri 8 to 5 vs Mon to Sat 8 to 5).
 - [ ] **Email** for the Web3Forms key (where quote requests go).
 - [ ] **Confirm before we say it on the site:** insured? free estimates? any warranty on work? still doing 99% of work in-house including electrical, plumbing and ductwork? Nothing like this is on the page until you confirm.
