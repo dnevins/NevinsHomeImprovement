@@ -1,0 +1,7 @@
+{
+  // Static site on Workers static assets. workers.dev only: no routes, no custom domains.
+  "name": "nevins-home-improvement",
+  "account_id": "f03a3d432e74f3feb8eb42323524a0d0",
+  "compatibility_date": "2026-10-01",
+  "assets": { "directory": "./" }
+}

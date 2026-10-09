@@ -1,0 +1,3 @@
+# Preview host only: keep workers.dev out of search. Production host gets no noindex.
+https://nevins-home-improvement.webshopmanager.workers.dev/*
+  X-Robots-Tag: noindex
